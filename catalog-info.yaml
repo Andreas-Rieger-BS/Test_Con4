@@ -1,9 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: Test_Con4
-  annotations:
-    github.com/project-slug: Andreas-Rieger-BS/Test_Con4
-spec:
-  type: other
-  lifecycle: unknown
