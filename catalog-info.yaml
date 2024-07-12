@@ -6,6 +6,6 @@ metadata:
     github.com/project-slug: Andreas-Rieger-BS/Test_Con4
     jenkins.io/job-full-name: Test_Con4/main
 spec:
-  type: other
-  lifecycle: unknown
-  owner: admins
+  type: service
+  lifecycle: experimental
+  owner: Andreas-Rieger
