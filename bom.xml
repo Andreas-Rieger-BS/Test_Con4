@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" serialNumber="urn:uuid:742afc1f-98c1-485f-8527-5f8727bbf719" xmlns="http://cyclonedx.org/schema/bom/1.5">
+  <metadata>
+    <timestamp>2024-07-24T08:52:26.5890895Z</timestamp>
+    <tools>
+      <components>
+        <component type="application">
+          <name>CycloneDX CLI</name>
+          <version>0.25.1.0</version>
+        </component>
+      </components>
+    </tools>
+  </metadata>
+  <components>
+    <component type="file">
+      <name>Jenkinsfile</name>
+      <version>0.0.0-ee45f0ad2f67</version>
+      <hashes>
+        <hash alg="SHA-1">ee45f0ad2f6788c8da1119f82cbeb2e3e00d5482</hash>
+        <hash alg="SHA-256">e9856bd231540060484667a712aa1d12f1e93d92e40f125ea0ba23546467c86f</hash>
+        <hash alg="SHA-384">34a16812c4aa4b57ff8d2bf9117246db987746d96ea0b79ced97cb08f98804cc5a5b6ed283bc6d6db4e32ce13bab97bf</hash>
+        <hash alg="SHA-512">056641fbc0caee2e3b193aa9a9e3e679c4635987fda14b1888e7ce419ab5009333c1acf5db3faf5693d2de894924125d279ab43e5f86edd03073af7cf0af6e5c</hash>
+      </hashes>
+    </component>
+    <component type="file">
+      <name>info.txt</name>
+      <version>0.0.0-a0b65939670b</version>
+      <hashes>
+        <hash alg="SHA-1">a0b65939670bc2c010f4d5d6a0b3e4e4590fb92b</hash>
+        <hash alg="SHA-256">03ba204e50d126e4674c005e04d82e84c21366780af1f43bd54a37816b6ab340</hash>
+        <hash alg="SHA-384">07f60df0b95043b3a3717638e7776ab76ebaa4fc705ba659063229cf162980c04a9f7496dcda50de6510d40fde3eba8a</hash>
+        <hash alg="SHA-512">830445e86a0cfafac4e1531002356f384847a11a7456fb8ccb81ab36e37bff28f34fa2c5bfdd347e964c5c5df0fc305de6394368219307b2ceeb0ec84b7c2b31</hash>
+      </hashes>
+    </component>
+    <component type="file">
+      <name>catalog-info.yaml</name>
+      <version>0.0.0-51e3d598668d</version>
+      <hashes>
+        <hash alg="SHA-1">51e3d598668df9047d474a47319698f1a2b3f898</hash>
+        <hash alg="SHA-256">1a8f99b3331bb598c73268a4989d4d191bd372c5929a7ca4219bc42efc36e46d</hash>
+        <hash alg="SHA-384">0f3cd71712ea734d55876da8e74c0688cdf71fccde9c739669a91fa272c3701406196516dffef735a20c40515fc37421</hash>
+        <hash alg="SHA-512">74272107303c52701a450fad8e83414b7c034a09d003f6cc09d8397b2ce7eead3fd3f35c197b7e2e81e2aeda2adedef0a508a18f023d25ff72ec4ca2440b98e3</hash>
+      </hashes>
+    </component>
+    <component type="file">
+      <name>sonar-project.properties</name>
+      <version>0.0.0-5b67af08dbb3</version>
+      <hashes>
+        <hash alg="SHA-1">5b67af08dbb38371dfedd43c482c3c2747129ec3</hash>
+        <hash alg="SHA-256">a24612cb1ef93070a7b2ca0b101ca77f66999625e6a7d89a231bbbe9c473f431</hash>
+        <hash alg="SHA-384">af183563f1cbb4db3f324c3d83979a590991c4f3bacc06a9c041bf0e64597bbbe79501ca279fddb275f0f8dcb687cb45</hash>
+        <hash alg="SHA-512">6b6b509886fb7170c4b3127e585c9bd74e4d5eb488aa7ce3e270ca5b159a36e2b0c9fc7ce2ea93a26ad5e3ae847b06e8c720826c49889b4503a1698ce1fd2f3b</hash>
+      </hashes>
+    </component>
+    <component type="file">
+      <name>.sonar_lock</name>
+      <version>0.0.0-da39a3ee5e6b</version>
+      <hashes>
+        <hash alg="SHA-1">da39a3ee5e6b4b0d3255bfef95601890afd80709</hash>
+        <hash alg="SHA-256">e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</hash>
+        <hash alg="SHA-384">38b060a751ac96384cd9327eb1b1e36a21fdb71114be07434c0cc7bf63f6e1da274edebfe76f65fbd51ad2f14898b95b</hash>
+        <hash alg="SHA-512">cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e</hash>
+      </hashes>
+    </component>
+    <component type="file">
+      <name>report-task.txt</name>
+      <version>0.0.0-cff1c5aaacb0</version>
+      <hashes>
+        <hash alg="SHA-1">cff1c5aaacb0a1b02df16cf5a226fa02b714a99f</hash>
+        <hash alg="SHA-256">651a199b9d4d26a552c8a28916587d94ffd0d51ee396486d692abfc34850b2bd</hash>
+        <hash alg="SHA-384">db41dbbc54bfaff15551f5694e00f764ed7949510a0efeb4611e120902823e96725e1f850d77bb165dc485e392495655</hash>
+        <hash alg="SHA-512">e2ba9b04b022b71faff33c416f319e90f75cf6e9cd4304751704913c012202346c0222cb732560170242b92eb3cf558646ace58794f28023bcc8ed9cab075a76</hash>
+      </hashes>
+    </component>
+  </components>
+</bom>
