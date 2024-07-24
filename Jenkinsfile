@@ -16,5 +16,10 @@ pipeline {
                 }
             }
         }
+        stage('dependencyTrackPublisher') {
+            steps {
+                 dependencyTrackPublisher artifact: 'bom.xml', projectName: 'Test_Con4', projectVersion: '1.0', synchronous: true
+            }
+        }
     }
 }
