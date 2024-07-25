@@ -18,7 +18,7 @@ pipeline {
         }
         stage('dependencyTrackPublisher') {
             steps {
-                 dependencyTrackPublisher projectName: 'Test_Con4', projectVersion: '1.1', synchronous: true
+                 dependencyTrackPublisher artifact:'', projectName: 'Test_Con4', projectVersion: '1.1', synchronous: true
             }
         }
     }
