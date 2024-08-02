@@ -18,7 +18,7 @@ pipeline {
         }
         stage('dependencyTrackPublisher') {
             steps {
-                dependencyTrackPublisher artifact: 'bom.xml', projectId: 'a65ea72b-5b77-40c5-8b19-fb83525f40eb', synchronous: false       
+                dependencyTrackPublisher artifact: 'bom.xml', projectName: 'Test_Con', projectVersion: '1.2', synchronous: true       
             }
         }
     }
