@@ -18,9 +18,7 @@ pipeline {
         }
         stage('dependencyTrackPublisher') {
             steps {
-                withCredentials([string(credentialsId: '506ed685-4e2b-4d31-a44f-8ba8e67b6341')]) {
-                    dependencyTrackPublisher artifact: 'target/bom.xml', projectName: 'Test_Con4', projectVersion: '1.2', synchronous: true
-                }
+                dependencyTrackPublisher artifact: 'target/bom.xml', projectId: 'a65ea72b-5b77-40c5-8b19-fb83525f40eb', synchronous: false       
             }
         }
     }
