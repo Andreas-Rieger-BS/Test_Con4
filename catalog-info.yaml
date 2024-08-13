@@ -12,4 +12,3 @@ spec:
   type: service
   lifecycle: experimental
   owner: admins
-  dependsOn: -
